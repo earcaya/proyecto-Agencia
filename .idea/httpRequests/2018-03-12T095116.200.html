@@ -1,0 +1,21 @@
+<br />
+<font size='1'><table class='xdebug-error xe-notice' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Notice: Undefined index: contrasena in C:\xampp\htdocs\Agencia4\Usuario\usuario_controller.php on line <i>78</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.3438</td><td bgcolor='#eeeeec' align='right'>380872</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_controller.php' bgcolor='#eeeeec'>...\usuario_controller.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.4688</td><td bgcolor='#eeeeec' align='right'>447536</td><td bgcolor='#eeeeec'>iniciar_sesion(  )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_controller.php' bgcolor='#eeeeec'>...\usuario_controller.php<b>:</b>9</td></tr>
+</table></font>
+<br />
+<font size='1'><table class='xdebug-error xe-uncaught-exception' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'correo' in 'where clause' in C:\xampp\htdocs\Agencia4\Usuario\usuario_repository.php on line <i>94</i></th></tr>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'correo' in 'where clause' in C:\xampp\htdocs\Agencia4\Usuario\usuario_repository.php on line <i>94</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.3438</td><td bgcolor='#eeeeec' align='right'>380872</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_controller.php' bgcolor='#eeeeec'>...\usuario_controller.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>1.4688</td><td bgcolor='#eeeeec' align='right'>447536</td><td bgcolor='#eeeeec'>iniciar_sesion(  )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_controller.php' bgcolor='#eeeeec'>...\usuario_controller.php<b>:</b>9</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>2.9531</td><td bgcolor='#eeeeec' align='right'>448400</td><td bgcolor='#eeeeec'>UsuarioService->check_password( ???, ??? )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_controller.php' bgcolor='#eeeeec'>...\usuario_controller.php<b>:</b>78</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>4.4062</td><td bgcolor='#eeeeec' align='right'>448472</td><td bgcolor='#eeeeec'>UsuarioRepository->get_password_by_id( ??? )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_service.php' bgcolor='#eeeeec'>...\usuario_service.php<b>:</b>49</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>6.2188</td><td bgcolor='#eeeeec' align='right'>462440</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDOStatement.execute' target='_new'>execute</a>
+(  )</td><td title='C:\xampp\htdocs\Agencia4\Usuario\usuario_repository.php' bgcolor='#eeeeec'>...\usuario_repository.php<b>:</b>94</td></tr>
+</table></font>

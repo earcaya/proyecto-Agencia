@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fac61e66-fbd8-4d47-8a37-febd695a085d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Agencia4" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TokenManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Token/TokenManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prueba_jwt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prueba_jwt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_service.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Usuario/usuario_service.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="54" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Usuario/usuario_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="102" column="52" lean-forward="false" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="administrador_service.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Administrador/administrador_service.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="administrador_repository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Administrador/administrador_repository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding>
+                <marker date="1520900010386" expanded="true" signature="326:353" ph="SELECT * FRO... administrador" />
+                <marker date="1520900010386" expanded="true" signature="692:760" ph="SELECT ADM_I... administrador" />
+                <marker date="1520900010386" expanded="true" signature="1120:1193" ph="SELECT ADM_I... administrador" />
+                <marker date="1520900010386" expanded="true" signature="1567:1605" ph="SELECT * FRO... usuario" />
+                <marker date="1520900010386" expanded="true" signature="2003:2092" ph="INSERT INTO `administrador`... " />
+                <marker date="1520900010386" expanded="true" signature="2670:2727" ph="UPDATE `administrador`... " />
+                <marker date="1520900010386" expanded="true" signature="3247:3291" ph="DELETE FROM `administrador`... " />
+                <marker date="1520900010386" expanded="true" signature="3837:3894" ph="SELECT ADM_C... administrador" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseWrapper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilidades/ResponseWrapper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_repository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Usuario/usuario_repository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="97" selection-end-column="13" />
+              <folding>
+                <marker date="1520862706449" expanded="true" signature="314:335" ph="SELECT * FRO... usuario" />
+                <marker date="1520862706449" expanded="true" signature="668:730" ph="SELECT USU_I... usuario" />
+                <marker date="1520862706449" expanded="true" signature="1084:1151" ph="SELECT USU_I... usuario" />
+                <marker date="1520862706449" expanded="true" signature="1519:1557" ph="SELECT * FRO... usuario" />
+                <marker date="1520862706449" expanded="true" signature="1939:1999" ph="SELECT PER_I... persona" />
+                <marker date="1520862706449" expanded="true" signature="2156:2228" ph="INSERT INTO `usuario`... " />
+                <marker date="1520862706449" expanded="true" signature="2765:2816" ph="UPDATE `usuario`... " />
+                <marker date="1520862706449" expanded="true" signature="3320:3358" ph="DELETE FROM `usuario`... " />
+                <marker date="1520862706449" expanded="true" signature="3906:3955" ph="SELECT USU_C... persona" />
+                <marker date="1520862706449" expanded="true" signature="3906:3957" ph="SELECT USU_C... usuario" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persona_repository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Persona/persona_repository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <marker date="1520645953644" expanded="true" signature="314:437" ph="SELECT PER_I... persona" />
+                <marker date="1520645953644" expanded="true" signature="770:910" ph="SELECT PER_I... persona" />
+                <marker date="1520645953644" expanded="true" signature="1262:1406" ph="SELECT PER_I... persona" />
+                <marker date="1520645953644" expanded="true" signature="1766:1912" ph="SELECT PER_I... persona" />
+                <marker date="1520645953644" expanded="true" signature="2294:2432" ph="INSERT INTO persona... " />
+                <marker date="1520645953644" expanded="true" signature="3051:3102" ph="UPDATE `persona`... " />
+                <marker date="1520645953644" expanded="true" signature="3606:3644" ph="DELETE FROM `persona`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persona_controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Persona/persona_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Direccion de correo electronico</find>
+      <find>form-iniciar-sesion</find>
+      <find>form-guardar-agencia</find>
+      <find>btn-guardar-agencia</find>
+      <find>guardar-agencia</find>
+      <find>validateForm</find>
+      <find>agencia</find>
+      <find>error</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response9.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Utilidades/conexion.php" />
+        <option value="$PROJECT_DIR$/Agencia/agencia_controller.php" />
+        <option value="$PROJECT_DIR$/Viajes/viaje_controller.php" />
+        <option value="$PROJECT_DIR$/Viajes/viajes_repository.php" />
+        <option value="$PROJECT_DIR$/Persona/prueba_persona.php" />
+        <option value="$PROJECT_DIR$/Localizacion/localizacion_service.php" />
+        <option value="$PROJECT_DIR$/Transporte/transporte_repository.php" />
+        <option value="$PROJECT_DIR$/Transporte/transporte_controller.php" />
+        <option value="$PROJECT_DIR$/Localizacion/localizacion_repository.php" />
+        <option value="$PROJECT_DIR$/Localizacion/localizacion_controller.php" />
+        <option value="$PROJECT_DIR$/Boleto/boleto_repository.php" />
+        <option value="$PROJECT_DIR$/Boleto/boleto_controller.php" />
+        <option value="$PROJECT_DIR$/Compra/compra.php" />
+        <option value="$PROJECT_DIR$/Persona/persona_repository.php" />
+        <option value="$PROJECT_DIR$/Persona/persona_controller.php" />
+        <option value="$PROJECT_DIR$/../veTurismoFrontend-master/src/js/varGlobal.js" />
+        <option value="$PROJECT_DIR$/../veTurismoFrontend-master/src/js/index.js" />
+        <option value="$PROJECT_DIR$/../veTurismoFrontend-master/public/index.html" />
+        <option value="$PROJECT_DIR$/Administrador/administrador.php" />
+        <option value="$PROJECT_DIR$/file.json" />
+        <option value="$PROJECT_DIR$/veTurismoFrontend-master/src/js/varGlobal.js" />
+        <option value="$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js" />
+        <option value="$PROJECT_DIR$/veTurismoFrontend-master/admin/guardar-agencia.html" />
+        <option value="$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js" />
+        <option value="$PROJECT_DIR$/Ruta/ruta_controller.php" />
+        <option value="$PROJECT_DIR$/Ruta/ruta_repository.php" />
+        <option value="$PROJECT_DIR$/prueba_jwt.php" />
+        <option value="$PROJECT_DIR$/Token/TokenManager.php" />
+        <option value="$PROJECT_DIR$/Usuario/usuario_repository.php" />
+        <option value="$PROJECT_DIR$/Usuario/usuario_service.php" />
+        <option value="$PROJECT_DIR$/Administrador/administrador_service.php" />
+        <option value="$PROJECT_DIR$/Administrador/administrador_repository.php" />
+        <option value="$PROJECT_DIR$/Usuario/usuario_controller.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="0950b09e-32f2-4265-8d7a-0f6901929d5a" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="132" />
+    <option name="y" value="-13" />
+    <option name="width" value="640" />
+    <option name="height" value="760" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Agencia4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Agencia4" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Agencia4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Agencia4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Administrador" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arquidiocesis-master" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Agencia4" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Usuario/usuario_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="iniciar_sesion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="correo" />
+                <option name="value" value="correo2@gmail.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="clave" />
+                <option name="value" value="NepxYM10n2Bn" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Usuario/usuario_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="iniciar_sesion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="correo" />
+                <option name="value" value="correo2@gmail.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="clave" />
+                <option name="value" value="NepxYM10n2B" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Usuario/usuario_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="iniciar_sesion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="correo" />
+                <option name="value" value="usuario" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="clave" />
+                <option name="value" value="usuario" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Persona/persona_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;usuario&quot;,&quot;clave&quot;:&quot;usuario&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Persona/presona_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;usuario&quot;,&quot;clave&quot;:&quot;usuario&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Usuario/usuario_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="iniciar_sesion" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="correo" />
+                <option name="value" value="correo" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="clave" />
+                <option name="value" value="clave" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Persona/persona_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;correo&quot;,&quot;clave&quot;:&quot;clave&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;correo&quot;,&quot;clave&quot;:&quot;clave&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_viaje" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;fecha&quot;:&quot;22012018&quot;,&quot;costo&quot;:&quot;445&quot;,&quot;boletos&quot;:&quot;16&quot;,&quot;tipo&quot;:&quot;tipo&quot;,&quot;ruta&quot;:&quot;5&quot;,&quot;unidad&quot;:&quot;3&quot;,&quot;id_agencia&quot;:&quot;2&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_ruta" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;id_agencia&quot;:&quot;2&quot;,&quot;pais_origen&quot;:&quot;pais_origen&quot;,&quot;estado_origen&quot;:&quot;estado_origen&quot;,&quot;ciudad_origen&quot;:&quot;ciudad_origen&quot;,&quot;pais_destino&quot;:&quot;pais_destino&quot;,&quot;estado_destino&quot;:&quot;estado_destino&quot;,&quot;ciudad_destino&quot;:&quot;ciudad_destino&quot;,&quot;id&quot;:&quot;3&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_ruta" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;id_agencia&quot;:&quot;2&quot;,&quot;pais_origen&quot;:&quot;pais_origen&quot;,&quot;estado_origen&quot;:&quot;estado_origen&quot;,&quot;ciudad_origen&quot;:&quot;ciudad:origen&quot;,&quot;pais_destino&quot;:&quot;pais_destino&quot;,&quot;estado_destino&quot;:&quot;estado_destino&quot;,&quot;ciudad_destino&quot;:&quot;ciudad_destino&quot;,&quot;id&quot;:&quot;3&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_ruta" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;id_agencia&quot;:&quot;2&quot;,&quot;país_origen&quot;:&quot;país_origen&quot;,&quot;estado_origen&quot;:&quot;estado_origen&quot;,&quot;ciudad_origen&quot;:&quot;ciudad:origen&quot;,&quot;país_destino&quot;:&quot;país_destino&quot;,&quot;estado_destino&quot;:&quot;estado_destino&quot;,&quot;ciudad_destino&quot;:&quot;ciudad_destino&quot;,&quot;id&quot;:&quot;3&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_ruta" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;id_agencia&quot;:&quot;2&quot;,&quot;país_origen&quot;:&quot;país_origen&quot;,&quot;estado_origen&quot;:&quot;estado_origen&quot;,&quot;ciudad_origen&quot;:&quot;ciudad:origen&quot;,&quot;país_destino&quot;:&quot;país_destino&quot;,&quot;estado_destino&quot;:&quot;estado_destino&quot;,&quot;ciudad_destino&quot;:&quot;ciudad_destino&quot;,&quot;id&quot;:&quot;3&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_ruta" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;id_agencia&quot;:&quot;2&quot;,&quot;país_origen&quot;:&quot;país_origen&quot;,&quot;estado_origen&quot;:&quot;estado_origen&quot;,&quot;ciudad_origen&quot;:&quot;ciudad:origen&quot;,&quot;país_destino&quot;:&quot;país_destino&quot;,&quot;estado_destino&quot;:&quot;estado_destino&quot;,&quot;ciudad_destino&quot;:&quot;ciudad_destino&quot;,&quot;id&quot;:&quot;3&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/veTurismoFrontend-master/src/php/iniciarSesion.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="anadir_ruta" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;id_agencia&quot;:&quot;2&quot;,&quot;país_origen&quot;:&quot;país_origen&quot;,&quot;estado_origen&quot;:&quot;estado_origen&quot;,&quot;ciudad_origen&quot;:&quot;ciudad:origen&quot;,&quot;país_destino&quot;:&quot;país_destino&quot;,&quot;estado_destino&quot;:&quot;estado_destino&quot;,&quot;ciudad_destino&quot;:&quot;ciudad_destino&quot;,&quot;id&quot;:&quot;3&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/veTurismoFrontend-master/src/php/iniciarSesion.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="correo" />
+                <option name="value" value="test@test.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="clave" />
+                <option name="value" value="123" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Persona/persona_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;correo3&quot;,&quot;clave&quot;:&quot;clave&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Persona/persona_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;correo1&quot;,&quot;clave&quot;:&quot;clave&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/Agencia4/Persona/persona_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="registrar" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;correo&quot;:&quot;correo&quot;,&quot;clave&quot;:&quot;clave&quot;,&quot;nombres&quot;:&quot;algun nombre&quot;,&quot;apellidos&quot;:&quot;algunos apellidos&quot;,&quot;tipo_documento&quot;:&quot;V&quot;,&quot;documento&quot;:&quot;25480216&quot;,&quot;nacionalidad&quot;:&quot;alguna_nacionalidad&quot;,&quot;fecha_de_nacimiento&quot;:&quot;22/01/2018&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/PROYECTO_WEB_INTEGRACION/Agencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="find_all" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;AG_ID&quot;:&quot;1&quot;,&quot;AG_RIF&quot;:&quot;j-123456789&quot;,&quot;AG_NOMBRE&quot;:&quot;TuriZuela&quot;,&quot;AG_DIRECCION&quot;:&quot;av-universidad&quot;,&quot;AG_TELEFONO&quot;:&quot;0241-5114547&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/PROYECTO_WEB_INTEGRACIONAgencia/agencia_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="find_all" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;AG_ID&quot;:&quot;1&quot;,&quot;AG_RIF&quot;:&quot;j-123456789&quot;,&quot;AG_NOMBRE&quot;:&quot;TuriZuela&quot;,&quot;AG_DIRECCION&quot;:&quot;av-universidad&quot;,&quot;AG_TELEFONO&quot;:&quot;0241-5114547&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/PROYECTO_WEB_INTEGRACIONAgencia/agencia_cntroller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="find_all" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;AG_ID&quot;:&quot;1&quot;,&quot;AG_RIF&quot;:&quot;j-123456789&quot;,&quot;AG_NOMBRE&quot;:&quot;TuriZuela&quot;,&quot;AG_DIRECCION&quot;:&quot;av-universidad&quot;,&quot;AG_TELEFONO&quot;:&quot;0241-5114547&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/PROYECTO_WEB_INTEGRACION/Viajes/viaje_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="find_all" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;AG_ID&quot;:&quot;1&quot;,&quot;AG_RIF&quot;:&quot;j-123456789&quot;,&quot;AG_NOMBRE&quot;:&quot;TuriZuela&quot;,&quot;AG_DIRECCION&quot;:&quot;av-universidad&quot;,&quot;AG_TELEFONO&quot;:&quot;0241-5114547&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost" />
+          <option name="urlPath" value="/PROYECTO_WEB_INTEGRACION/Viaje/viaje_controller.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="f" />
+                <option name="value" value="find_all" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="DATOS" />
+                <option name="value" value="{&quot;AG_ID&quot;:&quot;1&quot;,&quot;AG_RIF&quot;:&quot;j-123456789&quot;,&quot;AG_NOMBRE&quot;:&quot;TuriZuela&quot;,&quot;AG_DIRECCION&quot;:&quot;av-universidad&quot;,&quot;AG_TELEFONO&quot;:&quot;0241-5114547&quot;}" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="FirefoxRemoteDebugType" factoryName="Firefox Remote" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fac61e66-fbd8-4d47-8a37-febd695a085d" name="Default" comment="" />
+      <created>1519758261490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519758261490</updated>
+      <workItem from="1519758262974" duration="4775000" />
+      <workItem from="1519829782820" duration="602000" />
+      <workItem from="1520015960974" duration="5277000" />
+      <workItem from="1520643831645" duration="3563000" />
+      <workItem from="1520684086063" duration="719000" />
+      <workItem from="1520690089725" duration="22621000" />
+      <workItem from="1520776209278" duration="925000" />
+      <workItem from="1520783771421" duration="10095000" />
+      <workItem from="1520858645002" duration="7707000" />
+      <workItem from="1520896822260" duration="3102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59386000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18608414" sideWeight="0.49061033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.49676377" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41395348" sideWeight="0.2435275" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41395348" sideWeight="0.75647247" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.4935275" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41705427" sideWeight="0.6488673" order="3" side_tool="false" content_ui="tabs" x="26" y="560" width="1596" height="337" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20550162" sideWeight="0.5093897" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Viajes/viaje_controller.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Persona/persona_controller.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Persona/persona_controller.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Persona/persona_controller.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Persona/persona_repository.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Persona/persona_repository.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Persona/persona_repository.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>69</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/php/iniciarSesion.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>89</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/php/iniciarSesion.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/php/iniciarSesion.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>70</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>72</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>73</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>74</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>101</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>96</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>133</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>136</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>141</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Ruta/ruta_service.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Ruta/ruta_repository.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Ruta/ruta_repository.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>165</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Agencia/agencia_controller.php</url>
+          <line>168</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Viajes/viaje_service.php</url>
+          <line>70</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Viajes/viaje_repository.php</url>
+          <line>155</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Viajes/viaje_repository.php</url>
+          <line>158</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>41</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/prueba_jwt.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/prueba_jwt.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/prueba_jwt.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Token/TokenManager.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>96</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>93</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>95</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>50</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_service.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>89</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_repository.php</url>
+          <line>91</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>90</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_repository.php</url>
+          <line>93</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Administrador/administrador_service.php</url>
+          <line>50</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Usuario/usuario_controller.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>115</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>95</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>106</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>108</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>107</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>109</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>110</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>112</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>111</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>104</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js</url>
+          <line>103</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>72</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>65</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>70</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>71</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>68</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>67</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>66</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>61</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>25</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>62</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>63</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>64</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>60</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>45</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>38</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>89</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>85</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>87</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>92</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>91</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>89</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>95</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js</url>
+          <line>96</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>73</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>76</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>77</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js</url>
+          <line>78</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="166" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>password_verify($password, $password_temp[0]-&gt;USU_CLAVE)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>password_verify(&quot;123&quot;, $password_temp[0]-&gt;USU_CLAVE)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>password_verify(123, $password_temp[0]-&gt;USU_CLAVE)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$password</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$password_temp[0]-&gt;USU_CLAVE</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time()-$token_temp-&gt;time</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$token_temp</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>- $token_temp</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Boleto/boleto_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boleto/boleto_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boleto/boleto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compra/compra_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compra/compra_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compra/compra_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/js/get_scripts.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compra/compra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administrador/administrador_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Agencia/agencia_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/jquery.validate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="3" column="1172" lean-forward="false" selection-start-line="3" selection-start-column="1172" selection-end-line="3" selection-end-column="1172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="39773" lean-forward="false" selection-start-line="1" selection-start-column="39773" selection-end-line="1" selection-end-column="39773" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/src/php/iniciarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost/veTurismoFrontend-master/src/js/index.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="398" column="42" lean-forward="true" selection-start-line="398" selection-start-column="42" selection-end-line="398" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administrador/administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/src/js/varGlobal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/vendor/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="1" column="41910" lean-forward="false" selection-start-line="1" selection-start-column="41910" selection-end-line="1" selection-end-column="41910" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/guardar-agencia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="137" column="45" lean-forward="false" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/js/guardar-agencia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/php/php.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1903">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/src/php/Agencias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ruta/ruta_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/php/añadir_ruta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ruta/ruta_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ruta/ruta_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1520718986514" expanded="true" signature="220:334" ph="SELECT RUT_I... ruta" />
+            <marker date="1520718986514" expanded="true" signature="642:771" ph="SELECT RUT_I... ruta" />
+            <marker date="1520718986514" expanded="true" signature="1230:1367" ph="SELECT RUT_I... ruta" />
+            <marker date="1520718986514" expanded="true" signature="1631:1768" ph="SELECT RUT_I... ruta" />
+            <marker date="1520718986514" expanded="true" signature="2071:2226" ph="INSERT INTO `ruta`... " />
+            <marker date="1520718986514" expanded="true" signature="2964:3124" ph="UPDATE `ruta`... " />
+            <marker date="1520718986514" expanded="true" signature="3707:3742" ph="DELETE FROM `ruta`... " />
+            <marker date="1520718986514" expanded="true" signature="4109:4376" ph="SELECT AG_ID... agencia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/veTurismoFrontend-master/admin/php/añadir_viaje.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viajes/viaje_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Viajes/viaje_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding>
+            <marker date="1520623502000" expanded="true" signature="527:616" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="1293:1397" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="2071:2178" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="2861:2969" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="3638:3745" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="4429:4562" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="5237:5371" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="6092:6204" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="6921:7034" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="7720:7831" ph="SELECT VIJ_I... viaje" />
+            <marker date="1520623502000" expanded="true" signature="8399:8516" ph="INSERT INTO `viaje`... " />
+            <marker date="1520623502000" expanded="true" signature="9157:9277" ph="UPDATE `viaje`... " />
+            <marker date="1520623502000" expanded="true" signature="9826:9862" ph="DELETE FROM `viaje`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/firebase/php-jwt/src/JWT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="235" column="66" lean-forward="false" selection-start-line="235" selection-start-column="61" selection-end-line="235" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ruta/ruta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Agencia/agencia_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persona/persona_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Agencia/agencia_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <marker date="1520631176000" expanded="true" signature="499:671" ph="SELECT AG_ID... agencia" />
+            <marker date="1520631176000" expanded="true" signature="1296:1482" ph="SELECT AG_ID... agencia" />
+            <marker date="1520631176000" expanded="true" signature="2266:2455" ph="SELECT AG_ID... agencia" />
+            <marker date="1520631176000" expanded="true" signature="3079:3271" ph="SELECT AG_ID... agencia" />
+            <marker date="1520631176000" expanded="true" signature="3638:3833" ph="SELECT AG_ID... agencia" />
+            <marker date="1520631176000" expanded="true" signature="4162:4398" ph="INSERT INTO `agencia`... " />
+            <marker date="1520631176000" expanded="true" signature="5352:5571" ph="UPDATE `agencia`... " />
+            <marker date="1520631176000" expanded="true" signature="6267:6304" ph="DELETE FROM `agencia`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persona/persona_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <marker date="1520645953644" expanded="true" signature="314:437" ph="SELECT PER_I... persona" />
+            <marker date="1520645953644" expanded="true" signature="770:910" ph="SELECT PER_I... persona" />
+            <marker date="1520645953644" expanded="true" signature="1262:1406" ph="SELECT PER_I... persona" />
+            <marker date="1520645953644" expanded="true" signature="1766:1912" ph="SELECT PER_I... persona" />
+            <marker date="1520645953644" expanded="true" signature="2294:2432" ph="INSERT INTO persona... " />
+            <marker date="1520645953644" expanded="true" signature="3051:3102" ph="UPDATE `persona`... " />
+            <marker date="1520645953644" expanded="true" signature="3606:3644" ph="DELETE FROM `persona`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persona/persona_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba_jwt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Usuario/usuario_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="97" selection-end-column="13" />
+          <folding>
+            <marker date="1520862706449" expanded="true" signature="314:335" ph="SELECT * FRO... usuario" />
+            <marker date="1520862706449" expanded="true" signature="668:730" ph="SELECT USU_I... usuario" />
+            <marker date="1520862706449" expanded="true" signature="1084:1151" ph="SELECT USU_I... usuario" />
+            <marker date="1520862706449" expanded="true" signature="1519:1557" ph="SELECT * FRO... usuario" />
+            <marker date="1520862706449" expanded="true" signature="1939:1999" ph="SELECT PER_I... persona" />
+            <marker date="1520862706449" expanded="true" signature="2156:2228" ph="INSERT INTO `usuario`... " />
+            <marker date="1520862706449" expanded="true" signature="2765:2816" ph="UPDATE `usuario`... " />
+            <marker date="1520862706449" expanded="true" signature="3320:3358" ph="DELETE FROM `usuario`... " />
+            <marker date="1520862706449" expanded="true" signature="3906:3955" ph="SELECT USU_C... persona" />
+            <marker date="1520862706449" expanded="true" signature="3906:3957" ph="SELECT USU_C... usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Usuario/usuario_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Token/TokenManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilidades/ResponseWrapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administrador/administrador_repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1520900010386" expanded="true" signature="326:353" ph="SELECT * FRO... administrador" />
+            <marker date="1520900010386" expanded="true" signature="692:760" ph="SELECT ADM_I... administrador" />
+            <marker date="1520900010386" expanded="true" signature="1120:1193" ph="SELECT ADM_I... administrador" />
+            <marker date="1520900010386" expanded="true" signature="1567:1605" ph="SELECT * FRO... usuario" />
+            <marker date="1520900010386" expanded="true" signature="2003:2092" ph="INSERT INTO `administrador`... " />
+            <marker date="1520900010386" expanded="true" signature="2670:2727" ph="UPDATE `administrador`... " />
+            <marker date="1520900010386" expanded="true" signature="3247:3291" ph="DELETE FROM `administrador`... " />
+            <marker date="1520900010386" expanded="true" signature="3837:3894" ph="SELECT ADM_C... administrador" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Administrador/administrador_service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Usuario/usuario_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="102" column="52" lean-forward="false" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

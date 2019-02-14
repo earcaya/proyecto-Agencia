@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+	<div class="container-fluid" id="cargar">
+		<ol class="breadcrumb">
+	       <li class="breadcrumb-item">
+	          <a href="#">Dashboard</a>
+	        </li>
+	        <li class="breadcrumb-item active">Actualizar</li>
+	    </ol>
+	    <header>
+	        <h5>Actualizar Datos</h5>
+	    </header>
+
+	    <div>
+             
+              
+
+            <div class="form-group row">
+                <label class="col-sm-1 col-form-label">Agencia: </label>
+                <div class="col-sm-1">
+                   <button type="button"   class="btn btn-default btn-sm" >Ver todas</button>
+                </div>
+                <div class="col-sm-10">
+                    
+                	<div class="input-group">
+			            <div class="input-group-prepend">
+			               <span class="input-group-text"><i class="far fa-list-alt"></i></span>
+			            </div>
+			            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Escriba aqui el nombre de la agencia o terminal" id="inputAgencia">
+			            <span class="input-group-append"><button type="button" class="btn btn-info" id="actualizarAgencia"><i class="fab fa-sistrix"></i></button></span>
+			          
+			    	</div>
+
+
+                </div>
+            </div>
+
+             <div class="form-group row">
+                <label  class="col-sm-1 col-form-label">Viaje: </label>
+                <div class="col-sm-1">
+                   <button type="button"   class="btn btn-default btn-sm" >Ver todos</button>
+                </div>
+                <div class="col-sm-10">
+                    
+                	<div class="input-group">
+			            <div class="input-group-prepend">
+			               <span class="input-group-text"><i class="far fa-list-alt"></i></span>
+			            </div>
+			            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Escriba aqui el id del viaje">
+			            <span class="input-group-append"><button type="button" class="btn btn-info" id="actualizarViaje"><i class="fab fa-sistrix"></i></button></span>
+			          
+			    	</div>
+
+
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label  class="col-sm-1 col-form-label">Rutas: </label>
+                <div class="col-sm-1">
+                   <button type="button"   class="btn btn-default btn-sm" >Ver todas</button>
+                </div>
+                <div class="col-sm-10">
+                    
+                	<div class="input-group">
+			            <div class="input-group-prepend">
+			               <span class="input-group-text"><i class="far fa-list-alt"></i></span>
+			            </div>
+			            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Escriba aqui el id de la ruta">
+			            <span class="input-group-append"><button type="button" class="btn btn-info" id="actualizarRuta"><i class="fab fa-sistrix"></i></button></span>
+			          
+			    	</div>
+
+
+                </div>
+            </div>
+
+             <div class="form-group row">
+                <label  class="col-sm-1 col-form-label">Unidad: </label>
+                <div class="col-sm-1">
+                   <button type="button"   class="btn btn-default btn-sm" >Ver todas</button>
+                </div>
+                <div class="col-sm-10">
+                    
+                	<div class="input-group">
+			            <div class="input-group-prepend">
+			               <span class="input-group-text"><i class="far fa-list-alt"></i></span>
+			            </div>
+			            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Escriba aqui el id de la unidad">
+			            <span class="input-group-append"><button type="button" class="btn btn-info" id="actualizarUnidad" ><i class="fab fa-sistrix"></i></button></span>
+			          
+			    	</div>
+
+
+                </div>
+            </div>
+
+
+             
+
+              
+             
+        </div>
+
+
+        <!-- modal para actualizar un registro -->
+
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modalActualizarRegistro">
+		  <div class="modal-dialog modal-lg">
+
+		  	
+		    <div class="modal-content">
+
+		    	<div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Indique los nuevos datos</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		     </div>
+		     <div class="modal-body">
+			    <div id="PonerRegistro">
+			          		
+
+			    </div>
+<hr/>
+				<form action="" method="post">
+
+					<div class="form-group row">
+		                <label for="id1" class="col-sm-2 col-form-label">Nombre: </label>
+		                <div class="col-sm-10">
+		                  <input type="text" class="form-control" id="id1" name="identificador" placeholder="Indique el Tipo de Viaje">
+		                </div>
+		            </div>
+		            <div class="form-group row">
+		                <label for="id2" class="col-sm-2 col-form-label">Nombre: </label>
+		                <div class="col-sm-10">
+		                  <input type="text" class="form-control" id="id2" name="identificador" placeholder="Indique el Tipo de Viaje">
+		                </div>
+		            </div>
+		            <div class="form-group row">
+		                <label for="id3" class="col-sm-2 col-form-label">Nombre: </label>
+		                <div class="col-sm-10">
+		                  <input type="text" class="form-control" id="id3" name="identificador" placeholder="Indique el Tipo de Viaje">
+		                </div>
+		            </div>
+		            <div class="form-group row">
+		                <label for="id4" class="col-sm-2 col-form-label">Nombre: </label>
+		                <div class="col-sm-10">
+		                  <input type="text" class="form-control" id="id4" name="identificador" placeholder="Indique el Tipo de Viaje">
+		                </div>
+		            </div>
+				             
+				              
+				</form>
+      		</div>
+      		<div class="modal-footer">
+       
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
+      </div>
+		     	
+		    </div>
+		  </div>
+		</div>
+
+
+
+    <!--  modal para actualizar un registro -->
+
+
+
+	</div>
+</body>
+</html>

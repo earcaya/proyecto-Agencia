@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container-fluid" id="cargar">
+    <ol class="breadcrumb">
+       <li class="breadcrumb-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Procesar Agencia</li>
+    </ol>
+    <header>
+        <h5>Asociar Ruta/Transporte para las Agencias</h5>
+    </header>
+
+    <form method="post" class="input-group" id="form-buscar-agencia-asociar-ruta">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><i class="far fa-list-alt"></i></span>
+        </div>
+        <input type="text" class="form-control" name="agencia" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Escriba aqui el nombre de la agencia o terminal">
+        <span class="input-group-append"><button type="submit" class="btn btn-info" id="buscar_agencias"><i class="fab fa-sistrix"></i></button></span>
+      
+    </form>
+    <div class="card" style="display: none"  id="cardAgencia">
+      <div class="card-body" id="divAgencia">
+        This is some text within a card body.
+      </div>
+    </div>
+    <!-- modal para asociar una unidad asociada a una agencia -->
+    <div class="modal fade" id="modalAsociarUnidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >Asociar unidad de transporte</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="" method="post">
+             
+              
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-2 pt-0">Tipo:</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radioTransporte" id="gridRadios1" value="autobus" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        <i class="fas fa-bus"></i> Autobús
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radioTransporte" id="gridRadios2" value="avion">
+                      <label class="form-check-label" for="gridRadios2">
+                        <i class="fas fa-plane"></i> Avión
+                      </label>
+                    </div>
+                   
+                  </div>
+                </div>
+              </fieldset>
+
+               <div class="form-group row">
+                <label for="lineaUnidad" class="col-sm-2 col-form-label">Linea: </label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="lineaUnidad" name="linea" placeholder="Linea a la que pertenece">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="idCapacidad" class="col-sm-2 col-form-label">Capacidad: </label>
+                <div class="col-sm-10">
+                    <input type="number" name="capacidad" min=1 class="form-control" id="idCapacidad">
+                  
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="idUnidad" class="col-sm-2 col-form-label">ID: </label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="idUnidad" name="identificador" placeholder="Indique el identificador">
+                </div>
+              </div>
+
+              
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Guardar Unidad</button>
+                </div>
+              </div>
+            </form>
+
+            
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- modal para asociar una ruta asociada a una agencia -->
+    <div class="modal fade" id="modalAsociarRuta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >Asociar ruta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+            <form method="post" id="form-guardar-ruta">
+             
+              
+              
+
+              <div class="form-group row">
+                <label for="idPaisOrigen" class="col-sm-2 col-form-label">Origen: </label>
+                <div class="col-sm-10">
+                   <select class="form-control" id="idPaisOrigen" name="pais_origen">
+                       <option value="venezuela">Venezuela</option>
+                    </select>
+                    <select style="margin-bottom: 1rem; margin-top: 1rem"  class="form-control" id="idEstadoOrigen" name="estado_origen">
+                        <option value="carabobo">Carabobo</option>
+                    </select>
+                    <select class="form-control" id="idCiudadOrigen" name="ciudad_origen">
+                        <option value="valencia">Valencia</option>
+                    </select>
+
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="idPaisDestino" class="col-sm-2 col-form-label">Destino: </label>
+                <div class="col-sm-10">
+                   <select class="form-control" id="idPaisDestino" name="pais_destino" >
+                       <option value="estados unidos">Estados Unidos</option>
+                    </select>
+                    <select style="margin-bottom: 1rem; margin-top: 1rem" class="form-control" id="idEstadoDestino" name="estado_destino" >
+                        <option value="los angeles">Los Angeles</option>
+                    </select>
+                    <select class="form-control" id="idCiudadDestino" name="ciudad_destino" >
+                        <option value="california">California</option>
+                    </select>
+                </div>
+              </div>
+              
+
+              <div class="form-group row">
+                <label for="selectunidad" class="col-sm-2 col-form-label">Unidad: </label>
+                <div class="col-sm-10">
+                   <select class="form-control" id="selectunidad" name="id">
+                       <option value="xxx123">xxx123</option>
+                 </select>
+                </div>
+              </div>
+
+                <input type="hidden" name="id_agencia" value="">
+
+
+              
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary" id="btn-guardar-ruta">Guardar Ruta</button>
+                </div>
+              </div>
+            </form>
+
+
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+ <!-- modal para añadir un viaje a una agencia -->
+    <div class="modal fade" id="modalAddViaje" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >Añadir viaje</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" id="form-guardar-viaje">
+             
+              
+
+               <div class="form-group row">
+                <label for="idFecha" class="col-sm-2 col-form-label">Fecha: </label>
+                <div class="col-sm-10">
+                    <input id="idFecha" type="date"  class="form-control" name="fecha" required>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="idCosto" class="col-sm-2 col-form-label">Costo: </label>
+                <div class="col-sm-10">
+                    <input type="number" name="costo" min=1 class="form-control" id="idCosto" step="0.01" required>
+                  
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="idCanBoletos" class="col-sm-2 col-form-label">Boletos: </label>
+                <div class="col-sm-10">
+                    <input type="number" name="boletos" min="0" class="form-control" id="idCanBoletos" required>
+                  
+                </div>
+              </div>
+
+
+              <div class="form-group row">
+                <label for="idTipoViaje" class="col-sm-2 col-form-label">Tipo: </label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="idTipoViaje" name="tipo" placeholder="Indique el Tipo de Viaje" required>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="selectRuta" class="col-sm-2 col-form-label">Ruta: </label>
+                <div class="col-sm-10">
+                   <select class="form-control" id="selectRuta" name="ruta" required>
+                       <option value="1">Venezuela caracas caracas - Estados Unidos Los Angeles California</option>
+                 </select>
+                </div>
+              </div>
+
+
+               <div class="form-group row">
+                <label for="selectUnidadViaje" class="col-sm-2 col-form-label">Unidad: </label>
+                <div class="col-sm-10">
+                   <select class="form-control" id="selectUnidadViaje" name="unidad" required>
+                       <option value="xxx123">xxx123</option>
+                 </select>
+                </div>
+              </div>
+
+                <input type="hidden" name="id_agencia" value="">
+              
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary" id="btn-guardar-viaje">Guardar Viaje</button>
+                </div>
+              </div>
+            </form>
+
+            
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+            
+       
+      
+
+
+    
+</div>
+</body>
+</html>

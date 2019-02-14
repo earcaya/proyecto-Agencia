@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="76c4f829-8c47-4470-a778-ea30743101d5" name="INTEGRACION" url="http://localhost/PROYECTO_WEB_INTEGRACION">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="dfecc6d1-0271-4c35-a41c-c1328e0fe0b0" name="WEB_09_03_2017" url="http://localhost/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>

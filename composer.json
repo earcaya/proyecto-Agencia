@@ -1,0 +1,8 @@
+{
+    "name": "mezgo/my_project",
+    "description": "My New Project",
+    "require": {
+        "firebase/php-jwt": ">1.0"
+    }
+}
+

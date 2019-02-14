@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container-fluid" id="cargar">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item active">Tracking</li>
+        </ol>
+        <header>
+            <h5>Buscar agencia para seguimiento del traking</h5>
+        </header>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="far fa-list-alt"></i></span>
+            </div>
+            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Escriba aqui el nombre de la agencia o terminal">
+            <span class="input-group-append"><button type="button" class="btn btn-info" id="buscar_agencias_viajes"><i class="fab fa-sistrix"></i></button></span>
+          
+        </div>
+        <div class="card" style="display: none"  id="cardAgencia">
+          <div class="card-body" id="divAgenciayViajes">
+            This is some text within a card body.
+          </div>
+        </div>
+
+        <!-- modal para añadir latitud y longitud del tracking -->
+    <div class="modal fade" id="modalTracking" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >Indique Longitud-Latitud</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="" method="post">
+             
+              
+              
+
+               <div id="coordenadastracking">
+
+                <div class="form-group row">
+                     <span class="badge badge-light col-sm-2 col-form-label">Locacion:</span>
+                    <div class="col-sm-10">
+                        Longitud: 14,15 | Latitud: -15,47
+                    </div>
+                </div>
+                 <div class="form-group row">
+                    <span class="badge badge-light col-sm-2 col-form-label">Locacion:</span>
+                    <div class="col-sm-10">
+                        Longitud: 14,15 | Latitud: -15,47
+                    </div>
+                </div>
+                   
+               </div>
+                
+             
+               
+              <div class="form-group row">
+                <label for="idLongitud" class="col-sm-2 col-form-label">Longitud: </label>
+                <div class="col-sm-10">
+                    <input type="number" name="capacidad"  class="form-control form-control-sm" id="idLongitud" step="0.001">
+                  
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="idLatitud" class="col-sm-2 col-form-label">Latitud: </label>
+                <div class="col-sm-10">
+                    <input type="number" name="capacidad"  class="form-control form-control-sm" id="idLatitud" step="0.01">
+                  
+                </div>
+              </div>
+
+              <div class="form-group row">
+                
+                <div class="col-sm-10">
+                    
+                   <button type="button"   class="btn btn-default btn-sm" id="agregarLatLog">Añadir nuevo</button>
+                </div>
+              </div>
+
+             
+              
+              
+            </form>
+
+            
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+    </div>
+</body>
+</html>

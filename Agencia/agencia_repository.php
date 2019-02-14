@@ -1,0 +1,115 @@
+<?php
+
+    require_once "agencia.php";
+    require_once "../Utilidades/conexion.php";
+
+    //clase que se encarga de realizar los queries a la base de datos para el caso de la tabla agencia
+    class AgenciaRepository{
+
+    //retorna todas las agencias de la tabla y retorna una lista
+    function find_all()
+    {
+        $conexion = new Conexion();
+        $conn = $conexion->conectar();
+        //a continuacion viene la consulta en este caso no recibe parametros
+        $stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia ");
+        $stmt->execute();
+        //aqui se obtiene una instancia de un array con objetos de la clase agencia
+        $resultado = $stmt->fetchAll(PDO::FETCH_CLASS, "Agencia");
+        return $resultado;
+    }
+
+    //a partir de aqui los metodos se encargar de buscar dado un parametro en particular, todas las funciones
+    //son similares
+
+    //encuentra las agencias que tengan el id especificado
+    function find_by_id($ID)
+    {
+        $conexion = new Conexion();
+        $conn = $conexion->conectar();
+        //a continuacion viene la consulta en este caso si recibe parametros
+        $stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia WHERE AG_ID =" . $ID);
+        //aqui van los parametros de la consulta, que es lo que reemplaza los simbolos de interrogacion en ese orden
+        $stmt->execute(array($ID));
+        //aqui se obtiene una instancia de un array con objetos de la clase agencia
+        $resultado = $stmt->fetchAll(PDO::FETCH_CLASS, "Agencia");
+        return $resultado;
+    }
+
+    //encuentra las agencias que tengan el rif especificado
+    function find_by_rif($RIF)
+    {
+        $conexion = new Conexion();
+        $conn = $conexion->conectar();
+        //$stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia WHERE AG_RIF =" . $RIF);
+        $stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia WHERE AG_RIF = ?");
+        //echo "RIF: " . $RIF;
+        $stmt->execute(array($RIF));
+        $resultado = $stmt->fetchAll(PDO::FETCH_CLASS, "Agencia");
+        return $resultado;
+    }
+
+    //encuentra las agencias que tengan el nombre especificado
+    function find_by_nombre($NOMBRE)
+    {
+        $conexion = new Conexion();
+        $conn = $conexion->conectar();
+        //$stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia WHERE AG_NOMBRE =" . $NOMBRE);
+        $stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia WHERE AG_NOMBRE = ?");
+        $stmt->execute(array($NOMBRE));
+        $resultado = $stmt->fetchAll(PDO::FETCH_CLASS, "Agencia");
+        return $resultado;
+    }
+
+    //encuentra las agencias que tengan la direccion especificada
+    function find_by_direccion($DIRECCION)
+    {
+        $conexion = new Conexion();
+        $conn = $conexion->conectar();
+        $stmt = $conn->prepare("SELECT AG_ID, AG_TIPO_RIF, AG_RIF, AG_TIPO, AG_NOMBRE, AG_PAIS, AG_ESTADO, AG_CIUDAD, AG_DIRECCION, AG_TELEFONO, AG_TELEFONO2, AG_HORA_APERTURA, AG_HORA_CIERRE FROM agencia WHERE AG_DIRECCION = ?");
+        $stmt->execute(array($DIRECCION));
+        $resultado = $stmt->fetchAll(PDO::FETCH_CLASS, "Agencia");
+        return $resultado;
+    }
+
+        //insertar
+        function insert_agencia($agencia){
+            $conexion = new Conexion();
+            $conn = $conexion->conectar();
+            $stmt = $conn->prepare("INSERT INTO `agencia`(`AG_TIPO_RIF`, `AG_RIF`, `AG_TIPO`, `AG_NOMBRE`, `AG_PAIS`, `AG_ESTADO`, `AG_CIUDAD`, `AG_DIRECCION`, `AG_TELEFONO`, `AG_TELEFONO2`, `AG_HORA_APERTURA`, `AG_HORA_CIERRE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            try{
+                //$stmt->execute(array($agencia->AG_TIPO_RIF, $agencia->AG_RIF, $agencia->AG_TIPO, $agencia->AG_NOMBRE, $agencia->AG_PAIS, $agencia->AG_ESTADO, $agencia->AG_CIUDAD, $agencia->AG_DIRECCION, $agencia->AG_TELEFONO, $agencia->AG_TELEFONO2, $agencia->AG_HORA_APERTURA, $agencia->AG_HORA_CIERRE));
+                $stmt->execute(array($agencia->tipo_rif, $agencia->rif, $agencia->tipo, $agencia->nombre, $agencia->pais, $agencia->estado, $agencia->ciudad, $agencia->direccion, $agencia->telefono1, $agencia->telefono2, $agencia->hora_apertura, $agencia->hora_cierre));
+            }catch(PDOException $e){//aqui cae si sucede un error a nivel de base de datos
+                return false;
+            }
+            return true;
+        }
+
+        //actualizar
+        function update_agencia($agencia){
+            $conexion = new Conexion();
+            $conn = $conexion->conectar();
+            $stmt = $conn->prepare("UPDATE `agencia` SET `AG_TIPO_RIF`=?,`AG_RIF`=?,`AG_TIPO`=?,`AG_NOMBRE`=?,`AG_PAIS`=?,`AG_ESTADO`=?,`AG_CIUDAD`=?,`AG_DIRECCION`=?,`AG_TELEFONO`=?,`AG_TELEFONO2`=?,`AG_HORA_APERTURA`=?,`AG_HORA_CIERRE`=? WHERE AG_ID = ?");
+            try{
+                $stmt->execute(array($agencia->AG_TIPO_RIF, $agencia->AG_RIF, $agencia->AG_TIPO, $agencia->AG_NOMBRE, $agencia->AG_PAIS, $agencia->AG_ESTADO, $agencia->AG_CIUDAD, $agencia->AG_DIRECCION, $agencia->AG_TELEFONO, $agencia->AG_TELEFONO2, $agencia->AG_HORA_APERTURA, $agencia->AG_HORA_CIERRE, $agencia->AG_ID));
+            }catch(PDOException $e){//aqui cae si sucede un error a nivel de base de datos
+                return false;
+            }
+            return true;
+        }
+
+        //eliminar
+        function delete_agencia($agencia){
+            $conexion = new Conexion();
+            $conn = $conexion->conectar();
+            $stmt = $conn->prepare("DELETE FROM `agencia` WHERE AG_ID = ?");
+            try{
+            $stmt->execute(array($agencia->AG_ID));
+            }catch(PDOException $e){//aqui cae si sucede un error a nivel de base de datos
+                return false;
+            }
+            return true;
+        }
+    }
+?>

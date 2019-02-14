@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google Fonts CDN -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:800i" rel="stylesheet">
+  <!-- Animate CSS -->
+  <link href="../src/css/animate.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+  <!-- Custom styles for this template -->
+  <link href="../src/css/index.css" rel="stylesheet">
+
+  <title>Hello, world!</title>
+
+</head>
+<body>
+  <div id="info">
+    <div class="container d-flex justify-content-end">
+      <h6 class="font-weight-bold mb-0 mr-5" id="vt-info">VTurismo Informa</h6>
+      <i class="fa fa-phone mr-1"></i>
+      <h6 class="font-italic">8888-888-8888 / 5555-555-5555</h6>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar">
+    <div class="container">
+      <img class="navbar-brand" src="../src/images/logo.png">
+
+      <div class="d-flex justify-content-end">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#!">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!" data-toggle="modal" data-target="#exampleModal3" id="btn-iniciar-sesion">Iniciar sesion</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+      <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5" id="form-jumbotron" style="display: none">
+
+          <form>
+            <div class="form-group row" id="form-jumbotron-check">
+              <div class="form-check col-lg-4 col-sm-6 col-6">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Ida y vuelta
+                </label>
+              </div>
+
+              <div class="form-check col-lg-4 col-sm-6 col-6">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1">
+                <label class="form-check-label" for="exampleRadios2">
+                  Solo ida
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formGroupExampleInput">Origen</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Origen">
+            </div>
+
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Destino</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Destino">
+            </div>
+
+            <label for="fechas">Fechas</label>
+            <div class="form-group row" id="fechas">
+              <div class="input-group col-sm-6">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="far fa-calendar-alt"></i>
+                  </div>
+                </div>
+                <label for="inlineFormInputGroupUsername4"></label>
+                <input type="date" class="form-control" id="inlineFormInputGroupUsername4">
+              </div>
+              <div class="input-group col-sm-6">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="far fa-calendar-alt"></i>
+                  </div>
+                </div>
+                <label for="inlineFormInputGroupUsername2"></label>
+                <input type="date" class="form-control" id="inlineFormInputGroupUsername2">
+              </div>
+            </div>
+
+            <label for="personas">Personas</label>
+            <div class="form-group row" id="personas">
+              <div class="input-group col-sm-6">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fas fa-male"></i>
+                  </div>
+                </div>
+                <input type="number" min="0" step="1" class="form-control" id="inlineFormInputGroupUsername3" placeholder="Adultos">
+              </div>
+
+              <div class="input-group col-sm-6">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fas fa-child"></i>
+                  </div>
+                </div>
+                <input type="number" min="0" step="1" class="form-control" id="inlineFormInputGroupUsername5" placeholder="Niños">
+              </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+          </form>
+
+        </div>
+        <div class="col-md-7">
+          <p class="text-right">Salto Ángel <br>Parque nacional Canaima, en el estado Bolívar, Venezuela.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center font-italic display-4 subtitulo">Conoce las ultimas ofertas</p>
+      </div>
+    </div>
+    <hr class="linea">
+    <div class="row">
+      <div class="col-md-8">
+
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="card">
+              <img class="card-img" src="../src/images/img1.jfif" alt="Card image">
+              <div class="card-img-overlay">
+                <p class="card-text">City</p>
+              </div>
+
+              <div class="card-group oferta">
+                <div class="text-right">
+                  <p class="desde">Desde</p>
+                  <p class="moneda">$$</p>
+                </div>
+
+                <div class="text-left monto">
+                  500
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="card">
+              <img class="card-img" src="../src/images/img2.jfif" alt="Card image">
+              <div class="card-img-overlay">
+                <p class="card-text">City</p>
+              </div>
+
+              <div class="card-group oferta">
+                <div class="text-right">
+                  <p class="desde">Desde</p>
+                  <p class="moneda">$$</p>
+                </div>
+
+                <div class="text-left monto">
+                  500
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="card">
+              <img class="card-img" src="../src/images/img3.jfif" alt="Card image">
+              <div class="card-img-overlay">
+                <p class="card-text">City</p>
+              </div>
+
+              <div class="card-group oferta">
+                <div class="text-right">
+                  <p class="desde">Desde</p>
+                  <p class="moneda">$$</p>
+                </div>
+
+                <div class="text-left monto">
+                  500
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <div class="card">
+              <img class="card-img" src="../src/images/img4.jfif" alt="Card image">
+              <div class="card-img-overlay">
+                <p class="card-text">City</p>
+              </div>
+
+              <div class="card-group oferta">
+                <div class="text-right">
+                  <p class="desde">Desde</p>
+                  <p class="moneda">$$</p>
+                </div>
+
+                <div class="text-left monto">
+                  500
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <!-- carrusel -->
+          <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block" src="../src/images/img5.jfif" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../src/images/img6.jfif" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="../src/images/img7.jfif" alt="Tercer slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Tercer slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-5 text-center bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="display-4 font-italic subtitulo">Calificaciones</p>
+          <p class="lead font-italic font-weight-light subtitulo">Ultimas calificaciones</p>
+        </div>
+      </div>
+      <hr class="linea">
+      <div class="row">
+        <div class="col-md-3 p-3">
+          <p class="my-4"><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</i></p>
+          <div class="autor">
+            <img class="img-fluid d-block rounded-circle mx-auto" src="../src/images/perfil1.jfif">
+            <h5>Meow</h5>
+            <p>Exelente</p>
+          </div>
+        </div>
+        <div class="col-md-3 p-3">
+          <p class="my-4"><i>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. </i></p>
+          <div class="autor">
+            <img class="img-fluid d-block rounded-circle mx-auto" src="../src/images/perfil2.jfif">
+            <h5>J. L. Fish</h5>
+            <p>Bien</p>
+          </div>
+        </div>
+        <div class="col-md-3 p-3">
+          <p class="my-4"><i>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Cum sociis natoque penatibus et magnis dis parturient montes.</i></p>
+          <div class="autor">
+            <img class="img-fluid d-block rounded-circle mx-auto" src="../src/images/perfil3.jfif">
+            <h5>Carlito</h5>
+            <p>Exelente</p>
+          </div>
+        </div>
+        <div class="col-md-3 p-3">
+          <p class="my-4"><i>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Cum sociis natoque penatibus et magnis dis parturient montes.</i></p>
+          <div class="autor">
+            <img class="img-fluid d-block rounded-circle mx-auto" src="../src/images/perfil4.jfif">
+            <h5>Carlito</h5>
+            <p>Exelente</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 text">
+            <h3>Company name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis</p>
+          </div>
+          <div class="col item social">
+            <a href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <p class="copyright">Company Name 2018</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!--<div class="modal-header">
+          <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>-->
+        <div class="modal-body">
+
+          <div class="container">
+            <div class="card card-login mx-auto mt-5">
+              <div class="card-header">Iniciar sesion</div>
+              <div class="card-body">
+
+                <form method="post" id="form-iniciar-sesion">
+                  <div class="form-group">
+                    <label for="correo">Direccion de correo electronico</label>
+                    <input class="form-control" id="correo" name="correo" type="email" aria-describedby="emailHelp" placeholder="Ingresa tu correo electronico" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="clave">Contraseña</label>
+                    <input class="form-control" id="clave" name="clave" type="password" placeholder="Ingresa tu contraseña" required>
+                  </div>
+                  <input class="form-control" id="f" name="f" value="iniciar_sesion" type="hidden">
+                  <div class="form-group">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Recordar contraseña</label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block" id="btn-iniciar-sesion-enviar"> Enviar</button>
+                </form>
+
+                <div class="text-center">
+                  <a class="d-block small mt-3" href="">Registrar una cuenta</a>
+                  <a class="d-block small" href="">¿Se te olvidó tu contraseña?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../src/js/jquery-3.3.1.min.js"></script>
+  <script src="../src/js/popper.min.js"></script>
+  <script src="../src/js/bootstrap.min.js"></script>
+  <!-- Load font awesome-->
+  <script defer src="../src/js/fontawesome-all.min.js"></script>
+  <!-- Validate.js -->
+  <script src="../src/js/jquery.validate.min.js"></script>
+  <!-- My js -->
+  <script defer src="../src/js/varGlobal.js"></script>
+  <script defer src="../src/js/index.js"></script>
+</body>
+</html>
